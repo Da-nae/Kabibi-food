@@ -31,7 +31,7 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 - about
 - about__article
 - about__img
-- about__intro
+- about__text
 - choose__button
 
 **fourth section:**
@@ -69,11 +69,15 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 **Footer:**
 
 - footer__logo
+- footer__title
+- footer__column
 - footer__about__li
-- footer__facilities
+- footer__facilities__li
 - footer__nl
 - footer__nl__searchbar
 - footer__contact
+- footer__contact--colored
+- footer__baseline
 - footer__copyrights
-- footer__logo--centered
+- footer__spoon
 - footer__rs__li

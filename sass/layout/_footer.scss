@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap');
+@import "../sass-utils/variable.scss";
+@import "../base/reset.scss";
+
+footer {
+
+    background-image: url("./img/footer/img-ng-footer.jpeg");
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Open sans, sans-serif;
+    min-height: 500px;
+
+    .footer__logo {
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    p, li {
+        font-size: small;
+        color: grey;
+        line-height: 20px;
+    }
+
+    .footer__column {
+        display: flex;
+        max-width: 80%;
+        flex-basis: 100px;
+
+        .footer__about__li, .footer__facilities__li, .footer__contact {
+
+            width: 500px;
+            margin: 10px;
+
+            li {
+                margin-bottom: 20px;
+            }
+        }
+
+        .footer__nl {
+            margin: 10px;
+
+            input {
+                padding: 10px;
+                margin-right: 0px;
+            }
+
+            button {
+                margin-top: 20px;
+                margin-left: -10px;
+                padding: 10px;
+                background-color: $main-color;
+                border: solid $main-color;
+
+                a {
+                    color:#FFF;
+                }
+
+            }
+        }
+
+        h4 {
+            padding-bottom: 20px;
+            font-size: larger;
+            font-weight: 400;
+            font-family: font-family, 'Cinzel', serif;
+        }
+    }
+
+    .footer__contact {
+        .footer__contact--colored {
+            color: $main-color;
+        }
+    }
+
+    .footer__baseline {
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+
+        .footer__copyrights {
+            max-width: auto;
+        }
+
+        a {
+            color: $main-color
+        }
+
+        img {
+            max-width: 40px;
+        }
+
+        .footer__rs__li {
+            display: flex;
+            flex-direction: row;
+
+            img {
+                max-width: 25px;
+                margin: 5px
+            }
+        }
+    }
+}
+
+
