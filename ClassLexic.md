@@ -28,10 +28,10 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 
 **Third section:**
 
-- choose
-- choose__article
-- choose__img
-- choose__intro
+- about
+- about__article
+- about__img
+- about__intro
 - choose__button
 
 **fourth section:**
