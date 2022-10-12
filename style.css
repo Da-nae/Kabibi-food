@@ -4,6 +4,8 @@
 /* Remise à zéro des marges et des paddings de la page*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -236,6 +238,48 @@ header .menu__button .fa-arrow-right {
   display: flex;
   align-items: center;
   margin: 5px;
+}
+
+/* Remise à zéro des marges et des paddings de la page*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Retrait des puces sur les listes */
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blog .blog__article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.blog .blog__article .blog__alllogs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.blog .blog__article .blog__alllogs .blog__logs {
+  max-width: 300px;
+}
+.blog .blog__article .blog__alllogs .blog__logs img {
+  max-width: 300px;
+}
+.blog .blog__article .blog__alllogs .blog__logs .logs__text {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */

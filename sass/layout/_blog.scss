@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap');
+@import "../sass-utils/variable.scss";
+@import "../base/reset.scss";
+
+.blog {
+
+    .blog__article {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        .blog__alllogs {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+
+            .blog__logs {
+                max-width: 300px;
+
+                img {
+                    max-width: 300px;
+                }
+
+                .logs__text {
+                    display: flex;
+                    flex-direction: row;
+
+                }
+            }
+        }
+    }
+
+}
