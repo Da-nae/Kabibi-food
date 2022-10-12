@@ -3,7 +3,7 @@
 In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 
 **Header:**
-
+- menu__section
 - menu__logo
 - menu__nav
 - menu__ul
@@ -14,14 +14,16 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 - menu__linkbutton
 - fa-solid fa-phone
 - fa-solid fa-arrow-right
-
-**First section:**
-
 - intro
-- intro\__article
+- intro\_\_article
 - intro\_\_play
+- fa-solid fa-play
 - intro\_\_logo
 - intro\_\_h1
+- fa-solid fa-arrow-right
+- intro__button
+- intro__figure
+- fa-arrow-right
 
 **Second section:**
 
@@ -83,3 +85,4 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 - footer\_\_copyrights
 - footer\_\_logo--centered
 - footer**rs**li
+- fa-solid fa-arrow-right
