@@ -8,9 +8,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 header {
-  background-color: black;
+  background-image: url("./img/intro/img_bg_slider_home01.jpeg");
+  background-position: top right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.menu__section {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding-left: 5px;
   .menu__logo {
     display: flex;
@@ -56,14 +62,15 @@ header {
     border-radius: 7px;
     color: $white;
     padding: 7px;
-    width: 170px;
-    height: 45px;
+    width: 150px;
+    height: 40px;
     margin-left: 20px;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     margin-right: 5px;
+    border: none;
     .menu__linkbutton {
       display: flex;
       align-items: center;
@@ -81,4 +88,71 @@ header {
       margin: 5px;
     }
   }
+}
+
+.intro {
+  display: flex;
+}
+.intro__article {
+  display: flex;
+}
+.intro__h1 {
+  color: $white;
+  font-family: font-family, "Cinzel", serif;
+  font-weight: 400;
+  font-size: 90px;
+  margin-left: 100px;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+.intro__logo {
+  display: flex;
+  height: 18%;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+  margin-left: -120px;
+}
+.intro__button {
+  height: 40px;
+  margin-left: -380px;
+  margin-top: 440px;
+  margin-bottom: 100px;
+  background-color: #00000000;
+  border: 1px solid #ffffff61;
+  border-radius: 5px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+}
+.intro_buttonlink {
+  display: flex;
+  text-transform: uppercase;
+  color: $white;
+  align-items: center;
+  justify-content: center;
+  font-size: 75%;
+  font-weight: 700;
+}
+.fa-arrow-right {
+  display: flex;
+  margin-left: 5px;
+}
+.intro__figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 660px;
+  margin-top: 300px;
+  background-color: rgb(255, 255, 255);
+  width: 85px;
+  border-radius: 50%;
+  height: 85px;
+  outline: 1px solid rgba(255, 255, 255, 0.441);
+  outline-offset: 20px;
+}
+.fa-play {
+  display: flex;
+  color: $main-color;
+  font-size: 20px;
 }
