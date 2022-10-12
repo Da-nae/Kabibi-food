@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -259,27 +260,108 @@ a {
   text-decoration: none;
 }
 
+.blog {
+  position: relative;
+}
+.blog .blog__bg-text {
+  color: #f9f6f0;
+  font-family: font-family, "Cinzel", serif;
+  font-weight: 400;
+  font-size: 150px;
+  margin-left: -60px;
+  position: absolute;
+  z-index: -1;
+}
+.blog h2 {
+  font-family: font-family, "Cinzel", serif;
+  font-weight: 400;
+  margin-top: 100px;
+}
+.blog h3 {
+  margin-bottom: 50px;
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.blog h5 {
+  font-family: "Frank Ruhl Libre", serif;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 15px;
+}
 .blog .blog__article {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
 }
-.blog .blog__article .blog__alllogs {
+.blog .blog__article .blog__logos {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.blog .blog__article .blog__logos img {
+  max-width: 60px;
+  filter: contrast(0);
+}
+.blog .blog__article .blog__logos img:hover {
+  filter: none;
+}
+.blog .blog__article .blog__all-logs {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin: 20px;
+  width: 90%;
+  justify-content: space-evenly;
 }
-.blog .blog__article .blog__alllogs .blog__logs {
+.blog .blog__article .blog__all-logs .blog__logs {
+  max-width: 300px;
+  height: 390px;
+  background-color: #f5eee3;
+}
+.blog .blog__article .blog__all-logs .blog__logs img {
   max-width: 300px;
 }
-.blog .blog__article .blog__alllogs .blog__logs img {
-  max-width: 300px;
-}
-.blog .blog__article .blog__alllogs .blog__logs .logs__text {
+.blog .blog__article .blog__all-logs .blog__logs .logs__text {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  height: 159px;
+  padding: 10px;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__author, .blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__date {
+  font-weight: 300;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__author i, .blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__date i {
+  color: #c8a969;
+}
+.blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__date {
+  margin-left: 20px;
+}
+.blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__button {
+  border: 0px;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+.blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__button a {
+  color: #000;
+  font-size: 10px;
+}
+.blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__button:hover {
+  background-color: #c8a969;
+}
+.blog .blog__article .blog__all-logs .blog__logs .logs__text .blog__logs__button:hover a {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
