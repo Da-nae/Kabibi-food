@@ -22,6 +22,7 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 - fa-solid fa-arrow-right
 - intro__button
 - intro__figure
+- fa-arrow-right
 
 **Second section:**
 
