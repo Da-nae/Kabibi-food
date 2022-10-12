@@ -4,76 +4,82 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 
 **Header:**
 
-- menu__logo
-- menu__nav
-- menu__li
-- menu__button
+- menu\_\_logo
+- menu\_\_nav
+- menu\_\_ul
+- menu\_\_li
+- menu\_\_link
+- menu\_\_phone
+- menu\_\_button
+- menu\_\_linkbutton
+- fa-solid fa-phone
+- fa-solid fa-arrow-right
 
-**First section:** 
+**First section:**
 
 - intro
-- intro__article
-- intro__play
-- intro__logo
-- intro__h1
+- intro\_\_article
+- intro\_\_play
+- intro\_\_logo
+- intro\_\_h1
 
-**Second section:** 
+**Second section:**
 
 - category
-- category__nav
-- category__li
-- category__img--centered
-- category__img--left
-- category__img--right
+- category\_\_nav
+- category\_\_li
+- category\_\_img--centered
+- category\_\_img--left
+- category\_\_img--right
 
 **Third section:**
 
 - about
-- about__article
-- about__img
-- about__intro
-- choose__button
+- about\_\_article
+- about\_\_img
+- about\_\_intro
+- choose\_\_button
 
 **fourth section:**
 
 - special
-- special__article
-- special__dish
-- special__dish--selected
+- special\_\_article
+- special\_\_dish
+- special\_\_dish--selected
 
 **fifth section:**
 
 - gallery
-- gallery__article
-- gallery__photo--selected
-- gallery__photo--small
-- gallery__photo--large
-- gallery__button
+- gallery\_\_article
+- gallery\_\_photo--selected
+- gallery\_\_photo--small
+- gallery\_\_photo--large
+- gallery\_\_button
 
 **sixth section:**
 
 - chefs
-- chefs__article
-- chefs__pic
+- chefs\_\_article
+- chefs\_\_pic
 
 **seventh section:**
 
 - blog
-- blog__article
-- blog__logs
-- blog__logs__button
-- blog__logs__date
-- blog__logs__author
-- blog__logos
+- blog\_\_article
+- blog\_\_logs
+- blog**logs**button
+- blog**logs**date
+- blog**logs**author
+- blog\_\_logos
 
 **Footer:**
 
-- footer__logo
-- footer__about__li
-- footer__facilities
-- footer__nl
-- footer__nl__searchbar
-- footer__contact
-- footer__copyrights
-- footer__logo--centered
-- footer__rs__li
+- footer\_\_logo
+- footer**about**li
+- footer\_\_facilities
+- footer\_\_nl
+- footer**nl**searchbar
+- footer\_\_contact
+- footer\_\_copyrights
+- footer\_\_logo--centered
+- footer**rs**li
