@@ -3,6 +3,7 @@
 @import "../sass-utils/variable.scss";
 @import "../base/reset.scss";
 
+
 footer {
 
     background-image: url("./img/footer/img-ng-footer.jpeg");
@@ -80,44 +81,53 @@ footer {
 
     .footer__baseline {
         display: flex;
-        margin: 10px;
+        margin-bottom: 10px;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 90%;
+        border-top: 2px solid rgb(61, 61, 61);
 
         .footer__copyrights {
-            max-width: auto;
+            flex-grow: 1;
+            flex-basis: 0;
         }
 
         a {
             color: $main-color
         }
 
-        img {
-            max-width: 40px;
+        .footer__spoon {
+
+            img {
+                max-width: 40px;
+                margin-top: -10px;
+            }
         }
 
-        .footer__rs__li {
-            display: flex;
-            flex-direction: row;
+        .footer__rs {
 
-            a {
-                color: grey;
+            flex-grow: 1;
+            flex-basis: 0;
+            
 
-                &:hover {
-                    color: $main-color;
+            .footer__rs__li {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+
+                a {
+                    color: grey;
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+
+                i {
+                    font-size: 30px;
+                    margin: 5px;
                 }
             }
-
-            i {
-                font-size: 30px;
-                margin: 5px;
-
-                .fa-square-instagram {
-                    border-radius: 70%;
-                }
-            }
-
 
         }
     }
