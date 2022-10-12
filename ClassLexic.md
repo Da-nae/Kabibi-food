@@ -59,8 +59,9 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 **sixth section:**
 
 - chefs
-- chefs\_\_article
-- chefs\_\_pic
+- chefs__article
+- chefs__bg-text
+- chefs__pic
 
 **seventh section:**
 
