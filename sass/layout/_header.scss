@@ -40,6 +40,10 @@ header {
       margin: 20px;
       font-size: 14px;
       text-decoration: none;
+
+      &:hover {
+        color: $main-color;
+      }
     }
   }
   .fa-phone {
@@ -124,6 +128,10 @@ header {
   align-items: center;
   justify-content: center;
   width: 180px;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.211);
+  }
 }
 .intro_buttonlink {
   display: flex;
