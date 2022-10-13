@@ -10,9 +10,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap%27");
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap%27");
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -208,9 +205,6 @@ header {
   font-size: 14px;
   text-decoration: none;
 }
-.menu__section .menu__nav .menu__link:hover {
-  color: #c8a969;
-}
 .menu__section .fa-phone {
   color: #c8a969;
   display: flex;
@@ -297,9 +291,6 @@ header {
   justify-content: center;
   width: 180px;
 }
-.intro__button:hover {
-  background-color: rgba(255, 255, 255, 0.211);
-}
 
 .intro_buttonlink {
   display: flex;
@@ -363,6 +354,7 @@ a {
   font-family: font-family, "Cinzel", serif;
   font-weight: 400;
   font-size: 150px;
+  margin-left: -60px;
   position: absolute;
   z-index: -1;
 }
@@ -520,167 +512,6 @@ a {
   max-width: 230px;
   margin: 10px;
   margin-bottom: 200px;
-}
-
-/* Remise à zéro des marges et des paddings de la page*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-/* Retrait des puces sur les listes */
-ol, ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.gallery {
-  position: relative;
-}
-.gallery .gallery__bg-text {
-  color: #f9f6f0;
-  font-family: font-family, "Cinzel", serif;
-  font-weight: 400;
-  font-size: 150px;
-  position: absolute;
-  z-index: -1;
-}
-.gallery .gallery__article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.gallery .gallery__article h2 {
-  font-family: font-family, "Cinzel", serif;
-  font-weight: 400;
-  margin-top: 100px;
-}
-.gallery .gallery__article h3 {
-  margin-bottom: 30px;
-  font-weight: 300;
-  font-size: 15px;
-}
-.gallery .gallery__article h5 {
-  font-family: "Frank Ruhl Libre", serif;
-  font-weight: 200;
-  font-size: 20px;
-  margin-top: 100px;
-}
-.gallery .gallery__article .gallery__photos {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 25% 25% 25% 25%;
-  gap: 20px;
-  height: 600px;
-  width: 70%;
-}
-.gallery .gallery__article .gallery__photos span {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  color: #FFF;
-  color: transparent;
-}
-.gallery .gallery__article .gallery__photos span h5, .gallery .gallery__article .gallery__photos span h3 {
-  text-align: center;
-}
-.gallery .gallery__article .gallery__photos span p {
-  text-align: right;
-  margin-right: 20px;
-}
-.gallery .gallery__article .gallery__photos .first {
-  background-image: url("./img/gallery/img1gallerybox.jpeg");
-  background-position: center;
-  background-size: auto;
-  background-repeat: no-repeat;
-  grid-row-start: 1;
-  grid-column-start: 1;
-  grid-row-end: 2;
-  grid-column-end: 3;
-  color: transparent;
-}
-.gallery .gallery__article .gallery__photos .first:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img1gallerybox.jpeg");
-  color: white;
-}
-.gallery .gallery__article .gallery__photos .two {
-  background-image: url("./img/gallery/img2gallerybox.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  color: transparent;
-}
-.gallery .gallery__article .gallery__photos .two:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img2gallerybox.jpeg");
-  color: white;
-}
-.gallery .gallery__article .gallery__photos .three {
-  background-image: url("./img/gallery/img3gallerybox.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  color: transparent;
-}
-.gallery .gallery__article .gallery__photos .three:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img3gallerybox.jpeg");
-  color: white;
-}
-.gallery .gallery__article .gallery__photos .four {
-  background-image: url("./img/gallery/img4gallerybox.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  color: transparent;
-}
-.gallery .gallery__article .gallery__photos .four:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img4gallerybox.jpeg");
-  color: white;
-}
-.gallery .gallery__article .gallery__photos .five {
-  background-image: url("./img/gallery/img5gallerybox.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  color: transparent;
-}
-.gallery .gallery__article .gallery__photos .five:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img5gallerybox.jpeg");
-  color: white;
-}
-.gallery .gallery__article .gallery__photos .last {
-  background-image: url("./img/gallery/img6gallerybox.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  grid-row-start: 2;
-  grid-column-start: 3;
-  grid-row-end: 3;
-  grid-column-end: 5;
-  color: transparent;
-}
-.gallery .gallery__article .gallery__photos .last:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img6gallerybox.jpeg");
-  color: white;
-}
-.gallery .gallery__article .gallery__button {
-  border: 2px solid rgba(128, 128, 128, 0.244);
-  background-color: #FFF;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-top: 30px;
-}
-.gallery .gallery__article .gallery__button a {
-  color: #000;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-.gallery .gallery__article .gallery__button:hover {
-  background-color: #c8a969;
-}
-.gallery .gallery__article .gallery__button:hover a {
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
