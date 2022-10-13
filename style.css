@@ -690,6 +690,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 .gallery .gallery__article h2 {
   font-family: font-family, "Cinzel", serif;
@@ -868,7 +869,7 @@ a {
   top: 400px;
 }
 .special .special__bg-img--left img {
-  height: 450px;
+  height: 490px;
   width: 200px;
   object-fit: cover;
 }
