@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&display=swap");
+
+.category {
+  position: relative;
+  background-color: rgba(173, 173, 173, 0.358);
+  margin-bottom: 300px;
+  .category__bg-text {
+    color: $bg-text-light;
+    font-family: font-family, "Cinzel", serif;
+    font-weight: 400;
+    font-size: 150px;
+    margin-left: -60px;
+    position: absolute;
+    z-index: -1;
+  }
+  .category__h2 {
+    font-family: font-family, "Cinzel", serif;
+    font-weight: 400;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .category__h3 {
+    margin-bottom: 50px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .category__nav {
+    margin: 100px;
+    .category__ul {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      margin-bottom: 150px;
+      .category__li {
+        background-color: $white;
+        padding: 20px;
+        width: 150px;
+        height: 150px;
+        .category__imglink {
+          width: 40px;
+          display: flex;
+          margin: auto;
+        }
+        .category__p {
+          color: $black;
+          text-align: center;
+          font-family: "Frank Ruhl Libre", serif;
+        }
+        .fa-arrow-right {
+          color: $black;
+          display: flex;
+          align-items: center;
+          margin: auto;
+        }
+      }
+    }
+  }
+  .category__figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    .category__img-left {
+      width: 20%;
+      display: flex;
+      position: relative;
+      left: -300px;
+      top: 50px;
+    }
+    .category__img-centered {
+      border-radius: 50%;
+      border: 30px solid $white;
+      width: 45%;
+      position: absolute;
+      margin-top: 165px;
+    }
+    .category__img-right {
+      width: 20%;
+      display: flex;
+      position: relative;
+      left: 300px;
+      top: 50px;
+    }
+  }
+}
