@@ -52,11 +52,12 @@ In total, the page will be build with 1 Header + 7 Sections + 1 Footer
 **fifth section:**
 
 - gallery
-- gallery\_\_article
-- gallery\_\_photo--selected
-- gallery\_\_photo--small
-- gallery\_\_photo--large
-- gallery\_\_button
+- gallery__bg-text
+- gallery__article
+- gallery__photo--selected
+- gallery__photo--small
+- gallery__photo--large
+- gallery__button
 
 **sixth section:**
 
