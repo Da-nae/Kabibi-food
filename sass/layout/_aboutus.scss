@@ -1,0 +1,84 @@
+.about {
+  position: relative;
+
+  .about__bg-text {
+    color: $bg-text-light;
+    font-family: font-family, "Cinzel", serif;
+    font-weight: 400;
+    font-size: 150px;
+    margin-left: -60px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .about__h2 {
+    font-family: font-family, "Cinzel", serif;
+    font-weight: 400;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .about__h3 {
+    margin-bottom: 50px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+.about__logo {
+  display: flex;
+  margin-left: 1000px;
+  width: 120px;
+  position: absolute;
+  margin-top: -100px;
+}
+.about__article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.about__img {
+  display: flex;
+  width: 300px;
+  margin-left: 250px;
+  margin-right: 40px;
+}
+.about__button {
+  display: flex;
+  width: 60px;
+  align-items: center;
+  background-color: $main-color;
+  border-radius: 7px;
+  color: $white;
+  padding: 7px;
+  width: 150px;
+  height: 40px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  margin-right: 5px;
+  border: none;
+  margin-top: 280px;
+  margin-left: -300px;
+}
+.about__linkbutton {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: $white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px;
+}
+.about__intro {
+  width: 300px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 20px;
+  margin-top: 40px;
+}
