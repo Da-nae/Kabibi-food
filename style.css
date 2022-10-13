@@ -862,6 +862,27 @@ a {
   background-color: #f9f6f0;
   z-index: 0;
 }
+.special .special__bg-img--left {
+  position: absolute;
+  z-index: -1;
+  top: 400px;
+}
+.special .special__bg-img--left img {
+  height: 450px;
+  width: 200px;
+  object-fit: cover;
+}
+.special .special__bg-img--right {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+}
+.special .special__bg-img--right img {
+  height: 751px;
+  width: 450px;
+  object-fit: cover;
+}
 .special .special__bg-text {
   color: #f5eee3;
   font-family: font-family, "Cinzel", serif;
@@ -875,6 +896,9 @@ a {
   flex-direction: column;
   align-items: center;
 }
+.special .special__article h2 {
+  margin-right: 20px;
+}
 .special .special__article .special__dishes {
   display: flex;
   flex-direction: row;
@@ -886,29 +910,33 @@ a {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  width: 400px;
+  width: 500px;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
   border: 0px solid;
-  margin: 10px;
+  margin: 15px;
 }
 .special .special__article .special__dishes .special__dish .price {
   color: #c8a969;
   font-family: font-family, "Cinzel", serif;
-  font-size: 30px;
+  font-size: 40px;
 }
 .special .special__article .special__dishes .special__dish p, .special .special__article .special__dishes .special__dish h5 {
   text-align: left;
 }
+.special .special__article .special__dishes .special__dish h5 {
+  font-size: 20px;
+  font-weight: 100;
+}
 .special .special__article .special__dishes .special__dish p {
   font-family: open sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 100;
   margin-top: 10px;
 }
 .special .special__article .special__dishes .special__dish:hover {
-  border: 2px dashed #c8a969;
+  outline: 2px dashed #c8a969;
 }
 
 /*# sourceMappingURL=style.css.map */
