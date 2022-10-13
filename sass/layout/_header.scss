@@ -4,6 +4,7 @@
 @import "../base/reset.scss";
 //Import police et variables
 
+//Style barre de menu
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -63,6 +64,10 @@ header {
     margin: 20px;
     margin-left: 260px;
     font-size: 14px;
+    &:hover {
+      color: $main-color;
+      cursor: pointer;
+    }
   }
   .menu__button {
     display: flex;
@@ -80,6 +85,9 @@ header {
     justify-content: center;
     margin-right: 5px;
     border: none;
+    &:hover {
+      background-color: $white;
+    }
     .menu__linkbutton {
       display: flex;
       align-items: center;
@@ -90,15 +98,42 @@ header {
       text-transform: uppercase;
       font-size: 12px;
       padding: 10px;
-    }
-    .fa-arrow-right {
-      display: flex;
-      align-items: center;
-      margin: 5px;
+      &:hover {
+        color: $main-color;
+      }
     }
   }
 }
+label {
+  display: none;
+}
+@media all and (max-width: 760px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    nav .main_pages 
+    {
+        display: none;
+    }
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+}
 
+
+//Style de l'intro
 .intro {
   display: flex;
 }
