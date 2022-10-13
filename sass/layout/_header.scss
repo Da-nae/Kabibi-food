@@ -104,33 +104,7 @@ header {
     }
   }
 }
-label {
-  display: none;
-}
-@media all and (max-width: 760px)
-{
-    nav
-    {
-        height: 60px;
-    }
- 
-    nav .main_pages 
-    {
-        display: none;
-    }
- 
-    label 
-    {
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
-        cursor: pointer;
-    }
-}
+
 
 
 //Style de l'intro
