@@ -586,13 +586,14 @@ a {
   flex-direction: column;
   justify-content: space-around;
   color: #FFF;
-}
-.gallery .gallery__article .gallery__photos span p {
-  text-align: right;
-  margin: 20px;
+  color: transparent;
 }
 .gallery .gallery__article .gallery__photos span h5, .gallery .gallery__article .gallery__photos span h3 {
   text-align: center;
+}
+.gallery .gallery__article .gallery__photos span p {
+  text-align: right;
+  margin-right: 20px;
 }
 .gallery .gallery__article .gallery__photos .first {
   background-image: url("./img/gallery/img1gallerybox.jpeg");
@@ -603,71 +604,51 @@ a {
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 3;
-}
-.gallery .gallery__article .gallery__photos .first p, .gallery .gallery__article .gallery__photos .first h3, .gallery .gallery__article .gallery__photos .first h5 {
-  visibility: hidden;
+  color: transparent;
 }
 .gallery .gallery__article .gallery__photos .first:hover {
-  filter: brightness(50%);
-}
-.gallery .gallery__article .gallery__photos .first:hover p, .gallery .gallery__article .gallery__photos .first:hover h3, .gallery .gallery__article .gallery__photos .first:hover h5 {
-  visibility: visible;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img1gallerybox.jpeg");
+  color: white;
 }
 .gallery .gallery__article .gallery__photos .two {
   background-image: url("./img/gallery/img2gallerybox.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-}
-.gallery .gallery__article .gallery__photos .two p, .gallery .gallery__article .gallery__photos .two h3, .gallery .gallery__article .gallery__photos .two h5 {
-  visibility: hidden;
+  color: transparent;
 }
 .gallery .gallery__article .gallery__photos .two:hover {
-  filter: brightness(50%);
-}
-.gallery .gallery__article .gallery__photos .two:hover p, .gallery .gallery__article .gallery__photos .two:hover h3, .gallery .gallery__article .gallery__photos .two:hover h5 {
-  visibility: visible;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img2gallerybox.jpeg");
+  color: white;
 }
 .gallery .gallery__article .gallery__photos .three {
   background-image: url("./img/gallery/img3gallerybox.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-}
-.gallery .gallery__article .gallery__photos .three p, .gallery .gallery__article .gallery__photos .three h3, .gallery .gallery__article .gallery__photos .three h5 {
-  visibility: hidden;
+  color: transparent;
 }
 .gallery .gallery__article .gallery__photos .three:hover {
-  filter: brightness(50%);
-}
-.gallery .gallery__article .gallery__photos .three:hover p, .gallery .gallery__article .gallery__photos .three:hover h3, .gallery .gallery__article .gallery__photos .three:hover h5 {
-  visibility: visible;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img3gallerybox.jpeg");
+  color: white;
 }
 .gallery .gallery__article .gallery__photos .four {
   background-image: url("./img/gallery/img4gallerybox.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-}
-.gallery .gallery__article .gallery__photos .four p, .gallery .gallery__article .gallery__photos .four h3, .gallery .gallery__article .gallery__photos .four h5 {
-  visibility: hidden;
+  color: transparent;
 }
 .gallery .gallery__article .gallery__photos .four:hover {
-  filter: brightness(50%);
-}
-.gallery .gallery__article .gallery__photos .four:hover p, .gallery .gallery__article .gallery__photos .four:hover h3, .gallery .gallery__article .gallery__photos .four:hover h5 {
-  visibility: visible;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img4gallerybox.jpeg");
+  color: white;
 }
 .gallery .gallery__article .gallery__photos .five {
   background-image: url("./img/gallery/img5gallerybox.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-}
-.gallery .gallery__article .gallery__photos .five p, .gallery .gallery__article .gallery__photos .five h3, .gallery .gallery__article .gallery__photos .five h5 {
-  visibility: hidden;
+  color: transparent;
 }
 .gallery .gallery__article .gallery__photos .five:hover {
-  filter: brightness(50%);
-}
-.gallery .gallery__article .gallery__photos .five:hover p, .gallery .gallery__article .gallery__photos .five:hover h3, .gallery .gallery__article .gallery__photos .five:hover h5 {
-  visibility: visible;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img5gallerybox.jpeg");
+  color: white;
 }
 .gallery .gallery__article .gallery__photos .last {
   background-image: url("./img/gallery/img6gallerybox.jpeg");
@@ -677,14 +658,10 @@ a {
   grid-column-start: 3;
   grid-row-end: 3;
   grid-column-end: 5;
-}
-.gallery .gallery__article .gallery__photos .last p, .gallery .gallery__article .gallery__photos .last h3, .gallery .gallery__article .gallery__photos .last h5 {
   color: transparent;
 }
 .gallery .gallery__article .gallery__photos .last:hover {
-  background-color: rgba(0, 0, 0, 0.508);
-}
-.gallery .gallery__article .gallery__photos .last:hover p, .gallery .gallery__article .gallery__photos .last:hover h3, .gallery .gallery__article .gallery__photos .last:hover h5 {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("./img/gallery/img6gallerybox.jpeg");
   color: white;
 }
 .gallery .gallery__article .gallery__button {

@@ -56,14 +56,16 @@
                 flex-direction: column;
                 justify-content: space-around;
                 color:#FFF;
+                color: transparent;
 
-                p {
-                    text-align: right;
-                    margin: 20px;
-                }
 
                 h5, h3 {
                     text-align: center;
+                }
+
+                p {
+                    text-align: right;
+                    margin-right: 20px;
                 }
             }
 
@@ -76,17 +78,12 @@
                 grid-column-start: 1;
                 grid-row-end: 2;
                 grid-column-end: 3;
+                color: transparent;
 
-                p, h3, h5 {
-                    visibility: hidden;
-                }
 
                 &:hover {
-                    p, h3, h5 {
-                        visibility: visible;
-                    }
-
-                    filter:brightness(50%);
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("./img/gallery/img1gallerybox.jpeg");
+                    color: white;
                 }
             }
 
@@ -94,17 +91,12 @@
                 background-image: url("./img/gallery/img2gallerybox.jpeg");
                 background-position: center;
                 background-repeat: no-repeat;
+                color: transparent;
 
-                p, h3, h5 {
-                    visibility: hidden;
-                }
 
                 &:hover {
-                    p, h3, h5 {
-                        visibility: visible;
-                    }
-
-                    filter:brightness(50%);
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("./img/gallery/img2gallerybox.jpeg");
+                    color: white;
                 }
             }
 
@@ -112,17 +104,12 @@
                 background-image: url("./img/gallery/img3gallerybox.jpeg");
                 background-position: center;
                 background-repeat: no-repeat;
+                color: transparent;
 
-                p, h3, h5 {
-                    visibility: hidden;
-                }
 
                 &:hover {
-                    p, h3, h5 {
-                        visibility: visible;
-                    }
-
-                    filter:brightness(50%);
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("./img/gallery/img3gallerybox.jpeg");
+                    color: white;
                 }
             }
 
@@ -130,17 +117,12 @@
                 background-image: url("./img/gallery/img4gallerybox.jpeg");
                 background-position: center;
                 background-repeat: no-repeat;
+                color: transparent;
 
-                p, h3, h5 {
-                    visibility: hidden;
-                }
 
                 &:hover {
-                    p, h3, h5 {
-                        visibility: visible;
-                    }
-
-                    filter:brightness(50%);
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("./img/gallery/img4gallerybox.jpeg");
+                    color: white;
                 }
             }
 
@@ -148,17 +130,12 @@
                 background-image: url("./img/gallery/img5gallerybox.jpeg");
                 background-position: center;
                 background-repeat: no-repeat;
+                color: transparent;
 
-                p, h3, h5 {
-                    visibility: hidden;
-                }
 
                 &:hover {
-                    p, h3, h5 {
-                        visibility: visible;
-                    }
-
-                    filter:brightness(50%);
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("./img/gallery/img5gallerybox.jpeg");
+                    color: white;
                 }
             }
 
@@ -170,17 +147,11 @@
                 grid-column-start: 3;
                 grid-row-end: 3;
                 grid-column-end: 5;
-
-                p, h3, h5 {
-                    color: transparent;
-                }
+                color: transparent;
 
                 &:hover {
-                    p, h3, h5 {
-                        color: white;
-                    }
-
-                    background-color: rgba(0, 0, 0, 0.508);
+                    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("./img/gallery/img6gallerybox.jpeg");
+                    color: white;
                 }
             }
         }
