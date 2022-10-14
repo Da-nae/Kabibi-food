@@ -22,12 +22,12 @@ HTML and SCSS.
 
 ## **What the easiest part ?**
 
-Aurélie : the HTML semantic and the prototype on Figma.
-Danaé : the HTML semantic and the SCSS.
+- Aurélie : the HTML semantic and the prototype on Figma.
+- Danaé : the HTML semantic and the SCSS.
 
 ## **What the hardest part ?**
 
-Aurélie : the organization of Sass files (too many lines of code !).
-Danaé : the responsive part on different work made by others.
+- Aurélie : the organization of Sass files (too many lines of code !).
+- Danaé : the responsive part on different work made by others.
 
-Both : As our first team project with git and sass, we feel that it's not yet the best it can be. We hope to be faster in the future without the muddling of the first try ! 
+- Both : As our first team project with git and sass, we feel that it's not yet the best it can be and is missing some fine tuning. We hope to be faster in the future without the muddling of the first try ! 
