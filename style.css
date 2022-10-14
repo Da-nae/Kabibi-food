@@ -434,6 +434,7 @@ label,
   height: 85px;
   outline: 1px solid rgba(255, 255, 255, 0.441);
   outline-offset: 20px;
+  cursor: pointer;
 }
 
 .fa-play {
@@ -597,6 +598,7 @@ h5 {
   max-width: 300px;
   height: 390px;
   background-color: #f4eada;
+  margin-bottom: 20px;
 }
 .blog .blog__article .blog__all-logs .blog__logs img {
   max-width: 300px;
@@ -674,6 +676,7 @@ h5 {
 }
 .category .category__nav {
   margin: 100px;
+  height: auto;
 }
 .category .category__nav .category__ul {
   display: grid;
@@ -827,6 +830,11 @@ a {
   margin-bottom: 200px;
 }
 
+@media only screen and (max-width: 700px) {
+  .chefs__photo {
+    justify-content: center !important;
+  }
+}
 .about {
   position: relative;
 }
@@ -1089,7 +1097,7 @@ a {
   color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 1275px) {
   .gallery__photos {
     display: flex;
     flex-direction: row;
@@ -1185,6 +1193,7 @@ a {
   flex-direction: row;
   margin-bottom: 70px;
   justify-content: center;
+  height: auto;
 }
 .special .special__article .special__dishes .special__dish {
   background-color: #fff;
