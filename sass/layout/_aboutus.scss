@@ -6,7 +6,6 @@
     font-family: font-family, "Cinzel", serif;
     font-weight: 400;
     font-size: 150px;
-    margin-left: -60px;
     position: absolute;
     z-index: -1;
   }
@@ -39,6 +38,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
+  margin-bottom: 100px;
 }
 .about__img {
   display: flex;
