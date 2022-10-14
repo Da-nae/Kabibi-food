@@ -16,7 +16,7 @@ header {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url("/img/intro/img_bg_slider_home01.jpeg");
+    url("./img/intro/img_bg_slider_home01.jpeg");
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +193,6 @@ label,
     display: flex;
   }
 }
-
 //Style de l'intro
 .intro {
   display: flex;
