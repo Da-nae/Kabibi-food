@@ -181,3 +181,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 900px) {
+
+    .gallery__photos {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        height: auto;
+        width: auto;
+    }
+
+}
