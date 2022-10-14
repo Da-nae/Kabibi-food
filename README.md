@@ -10,7 +10,7 @@ Team members : [Aurélie](https://github.com/Avanhellemont) et [Danaé](https://
 ## **Who took what part ?**
 
 Aurélie : Header, About Us section, Category section and hamburger menu.
-Danaé : Footer, Gallery section, Specials section, Chefs section and responsive adaptation.
+Danaé : Footer, Gallery section, Specials section, Chefs section and some responsive adaptation.
 
 ## **Why create this projet ?**
 
