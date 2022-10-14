@@ -14,9 +14,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -140,11 +137,10 @@ a {
 
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 0%;
-  padding: 0%; }
+  margin: 0; }
 
 header {
-  background-image: linear-gradient(290deg, rgba(0, 0, 0, 0) 0%, black 100%), url("/img/intro/img_bg_slider_home01.jpeg");
+  background-image: linear-gradient(290deg, rgba(0, 0, 0, 0) 0%, black 100%), url("./img/intro/img_bg_slider_home01.jpeg");
   background-position: top right;
   background-size: 100%;
   background-repeat: no-repeat; }
@@ -237,9 +233,9 @@ label,
 #toggle {
   display: none; }
 
-@media only screen and (max-width: 1272px) {
+@media only screen and (max-width: 760px) {
   .menu__section {
-    display: block;
+    display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -247,13 +243,7 @@ label,
 
   .menu__logo {
     width: 20%;
-    height: 20%;
-    display: block;
-    margin: auto; }
-
-  .menu__nav {
-    display: flex;
-    margin: 0; }
+    height: 20%; }
 
   nav {
     height: 60px; }
@@ -263,39 +253,6 @@ label,
     flex-direction: column;
     background: #c8a86967;
     height: 220px; }
-
-  .menu__phone {
-    display: block;
-    color: white;
-    margin: 0px;
-    margin-left: 0;
-    font-size: 14px;
-    float: right; }
-
-  .menu__button {
-    display: block;
-    background-color: #c8a969;
-    border-radius: 7px;
-    color: white;
-    width: 120px;
-    height: 40px;
-    margin-left: 0;
-    margin-right: -110px;
-    margin-top: -50px;
-    border: none;
-    float: right; }
-
-  .menu__linkbutton {
-    margin-top: 0px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    padding: 0px; }
 
   nav .main_pages a {
     width: 50%; }
@@ -312,6 +269,63 @@ label,
 
   #toggle:checked + .main_pages {
     display: flex; } }
+@media only screen and (max-width: 1350px) {
+  .menu__section {
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px; }
+
+  .menu__logo {
+    width: 20%;
+    height: 20%;
+    margin: auto; }
+
+  nav {
+    height: 60px; }
+
+  nav .main_pages {
+    display: none;
+    flex-direction: column;
+    background: #c8a869ad;
+    height: 220px; }
+
+  nav .main_pages a {
+    width: 50%; }
+
+  label {
+    display: block;
+    font-size: 40px;
+    color: white;
+    cursor: pointer; }
+
+  .menu__phone {
+    margin: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-end; }
+
+  #toggle:checked + .main_pages {
+    display: flex; }
+
+  .menu__nav {
+    margin: 0; }
+
+  .menu__button {
+    float: right;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    width: 100px;
+    height: 30px; }
+
+  .menu__linkbutton {
+    font-size: 9px; }
+
+  .menu__phone {
+    font-size: 10px;
+    margin-top: -50px; } }
 .intro {
   display: flex; }
 
@@ -394,24 +408,6 @@ ol, ul {
 
 a {
   text-decoration: none; }
-
-h2 {
-  font-family: font-family, "Cinzel", serif;
-  font-weight: 400;
-  margin-top: 100px;
-  font-size: 30px; }
-
-h3 {
-  margin-bottom: 50px;
-  font-weight: 300;
-  margin-top: 20px;
-  font-size: 15px; }
-
-h5 {
-  font-family: "Frank Ruhl Libre", serif;
-  text-transform: capitalize;
-  font-weight: 100;
-  font-size: 15px; }
 
 .blog {
   position: relative; }
@@ -570,24 +566,6 @@ h5 {
       left: 300px;
       top: 50px; }
 
-h2 {
-  font-family: font-family, "Cinzel", serif;
-  font-weight: 400;
-  margin-top: 100px;
-  font-size: 30px; }
-
-h3 {
-  margin-bottom: 50px;
-  font-weight: 300;
-  margin-top: 20px;
-  font-size: 15px; }
-
-h5 {
-  font-family: "Frank Ruhl Libre", serif;
-  text-transform: capitalize;
-  font-weight: 100;
-  font-size: 15px; }
-
 /* Remise à zéro des marges et des paddings de la page*/
 * {
   margin: 0;
@@ -605,7 +583,7 @@ a {
 
 .chefs {
   position: relative;
-  background-image: url("./img/chef/imgbg-ourchefs.jpeg");
+  background-image: url("/Becode/Kabibi-food/img/chef/imgbg-ourchefs.jpeg");
   background-size: cover;
   z-index: -2; }
   .chefs .chefs__bg-text {
@@ -745,8 +723,7 @@ a {
   .gallery .gallery__article {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 50px; }
+    align-items: center; }
     .gallery .gallery__article h2 {
       font-family: font-family, 'Cinzel', serif;
       font-weight: 400;
@@ -789,7 +766,7 @@ a {
         grid-column-end: 3;
         color: transparent; }
         .gallery .gallery__article .gallery__photos .first:hover {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/gallery/img1gallerybox.jpeg");
+          background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%), url("./img/gallery/img1gallerybox.jpeg");
           color: white; }
       .gallery .gallery__article .gallery__photos .two {
         background-image: url("./img/gallery/img2gallerybox.jpeg");
@@ -797,7 +774,7 @@ a {
         background-repeat: no-repeat;
         color: transparent; }
         .gallery .gallery__article .gallery__photos .two:hover {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/gallery/img2gallerybox.jpeg");
+          background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%), url("./img/gallery/img2gallerybox.jpeg");
           color: white; }
       .gallery .gallery__article .gallery__photos .three {
         background-image: url("./img/gallery/img3gallerybox.jpeg");
@@ -805,7 +782,7 @@ a {
         background-repeat: no-repeat;
         color: transparent; }
         .gallery .gallery__article .gallery__photos .three:hover {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/gallery/img3gallerybox.jpeg");
+          background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%), url("./img/gallery/img3gallerybox.jpeg");
           color: white; }
       .gallery .gallery__article .gallery__photos .four {
         background-image: url("./img/gallery/img4gallerybox.jpeg");
@@ -813,7 +790,7 @@ a {
         background-repeat: no-repeat;
         color: transparent; }
         .gallery .gallery__article .gallery__photos .four:hover {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/gallery/img4gallerybox.jpeg");
+          background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%), url("./img/gallery/img4gallerybox.jpeg");
           color: white; }
       .gallery .gallery__article .gallery__photos .five {
         background-image: url("./img/gallery/img5gallerybox.jpeg");
@@ -821,7 +798,7 @@ a {
         background-repeat: no-repeat;
         color: transparent; }
         .gallery .gallery__article .gallery__photos .five:hover {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/gallery/img5gallerybox.jpeg");
+          background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%), url("./img/gallery/img5gallerybox.jpeg");
           color: white; }
       .gallery .gallery__article .gallery__photos .last {
         background-image: url("./img/gallery/img6gallerybox.jpeg");
@@ -833,7 +810,7 @@ a {
         grid-column-end: 5;
         color: transparent; }
         .gallery .gallery__article .gallery__photos .last:hover {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/gallery/img6gallerybox.jpeg");
+          background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%), url("./img/gallery/img6gallerybox.jpeg");
           color: white; }
     .gallery .gallery__article .gallery__button {
       border: 2px solid rgba(128, 128, 128, 0.244);
@@ -849,105 +826,5 @@ a {
         background-color: #c8a969; }
         .gallery .gallery__article .gallery__button:hover a {
           color: white; }
-
-h2 {
-  font-family: font-family, "Cinzel", serif;
-  font-weight: 400;
-  margin-top: 100px;
-  font-size: 30px; }
-
-h3 {
-  margin-bottom: 50px;
-  font-weight: 300;
-  margin-top: 20px;
-  font-size: 15px; }
-
-h5 {
-  font-family: "Frank Ruhl Libre", serif;
-  text-transform: capitalize;
-  font-weight: 100;
-  font-size: 15px; }
-
-/* Remise à zéro des marges et des paddings de la page*/
-* {
-  margin: 0;
-  padding: 0; }
-
-*, *:before, *:after {
-  box-sizing: border-box; }
-
-/* Retrait des puces sur les listes */
-ol, ul {
-  list-style: none; }
-
-a {
-  text-decoration: none; }
-
-.special {
-  position: relative;
-  background-color: #f9f6f0;
-  z-index: 0; }
-  .special .special__bg-img--left {
-    position: absolute;
-    z-index: -1;
-    top: 400px; }
-    .special .special__bg-img--left img {
-      height: 490px;
-      width: 200px;
-      object-fit: cover; }
-  .special .special__bg-img--right {
-    position: absolute;
-    z-index: -1;
-    top: 0px;
-    right: 0px; }
-    .special .special__bg-img--right img {
-      height: 751px;
-      width: 450px;
-      object-fit: cover; }
-  .special .special__bg-text {
-    color: #f5eee3;
-    font-family: font-family, 'Cinzel', serif;
-    font-weight: 400;
-    font-size: 150px;
-    position: absolute;
-    z-index: -1; }
-  .special .special__article {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .special .special__article h2 {
-      margin-right: 20px; }
-    .special .special__article .special__dishes {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 70px;
-      justify-content: center; }
-      .special .special__article .special__dishes .special__dish {
-        background-color: #fff;
-        display: flex;
-        flex-direction: row;
-        align-items: stretch;
-        width: 500px;
-        justify-content: space-between;
-        padding: 15px;
-        border-radius: 5px;
-        border: 0px solid;
-        margin: 15px; }
-        .special .special__article .special__dishes .special__dish .price {
-          color: #c8a969;
-          font-family: font-family, "Cinzel", serif;
-          font-size: 40px; }
-        .special .special__article .special__dishes .special__dish p, .special .special__article .special__dishes .special__dish h5 {
-          text-align: left; }
-        .special .special__article .special__dishes .special__dish h5 {
-          font-size: 20px;
-          font-weight: 100; }
-        .special .special__article .special__dishes .special__dish p {
-          font-family: open sans;
-          font-size: 13px;
-          font-weight: 100;
-          margin-top: 10px; }
-        .special .special__article .special__dishes .special__dish:hover {
-          outline: 2px dashed #c8a969; }
 
 /*# sourceMappingURL=style.css.map */
