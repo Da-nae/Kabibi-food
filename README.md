@@ -1,6 +1,8 @@
 # Kabibi-food
 **First group project initiated by Becode.**
 
+Link of the finished project : [here](https://da-nae.github.io/Kabibi-food/).
+
 ## **Who did this project ?**
 
 Team members : [Aurélie](https://github.com/Avanhellemont) et [Danaé](https://github.com/Da-nae).
