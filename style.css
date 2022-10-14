@@ -791,12 +791,12 @@ a {
   flex-wrap: wrap;
   align-content: center;
   margin-bottom: 100px;
+  justify-content: center;
 }
 
 .about__img {
   display: flex;
   width: 300px;
-  margin-left: 250px;
   margin-right: 40px;
 }
 
@@ -839,6 +839,19 @@ a {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 900px) {
+  .about__article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  .about__article .about__img {
+    margin: 0px;
+  }
+}
 /* Remise à zéro des marges et des paddings de la page*/
 * {
   margin: 0;
