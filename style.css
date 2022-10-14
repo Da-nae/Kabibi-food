@@ -1136,4 +1136,28 @@ a {
   outline: 2px dashed #c8a969;
 }
 
+@media only screen and (max-width: 900px) {
+  .special__bg-img--left, .special__bg-img--right {
+    display: none;
+  }
+  .special__dishes {
+    display: flex;
+    flex-direction: column !important;
+    margin-bottom: 70px;
+    height: auto;
+    align-items: center;
+  }
+  .special__dishes .special__dish {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px solid;
+    margin: 15px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
