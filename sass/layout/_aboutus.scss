@@ -6,7 +6,6 @@
     font-family: font-family, "Cinzel", serif;
     font-weight: 400;
     font-size: 150px;
-    margin-left: -60px;
     position: absolute;
     z-index: -1;
   }
@@ -39,11 +38,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
+  margin-bottom: 100px;
+  justify-content: center;
 }
 .about__img {
   display: flex;
   width: 300px;
-  margin-left: 250px;
   margin-right: 40px;
 }
 .about__button {
@@ -81,4 +81,20 @@
   font-family: "Frank Ruhl Libre", serif;
   font-size: 20px;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .about__article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0px;
+
+    .about__img {
+      margin: 0px;
+    }
+  }
 }

@@ -18,7 +18,7 @@ header {
     ),
     url("/img/intro/img_bg_slider_home01.jpeg");
   background-position: top right;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .menu__section {
@@ -264,4 +264,70 @@ label,
   display: flex;
   color: $main-color;
   font-size: 20px;
+}
+
+// Addition du responsive de la partie intro - Essai 1 Danaé
+
+@media only screen and (max-width: 768px) {
+  
+  header {
+    .intro {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 90%;
+
+      .intro__article {
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px;
+
+        .intro__h1 {
+          color: $white;
+          font-family: font-family, "Cinzel", serif;
+          font-weight: 400;
+          font-size: 60px;
+          text-transform: uppercase;
+          margin-left: 0px;
+        }
+
+        .intro__logo {
+          display: flex;
+          height: 60px;
+        }
+        .intro__button {
+          height: 40px;
+          background-color: #00000000;
+          border: 1px solid #ffffff61;
+          border-radius: 5px;
+          font-weight: 600;
+          align-items: center;
+          justify-content: center;
+          width: 180px;
+          margin-left: -200px;
+        
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.211);
+          }
+        }
+
+        .intro_buttonlink {
+          display: flex;
+          text-transform: uppercase;
+          color: $white;
+          align-items: center;
+          justify-content: center;
+          font-size: 75%;
+          font-weight: 700;
+        }
+        .fa-arrow-right {
+          display: flex;
+        }
+      }
+    }
+
+    .intro__figure {
+      display: none;
+    }
+  }
 }
